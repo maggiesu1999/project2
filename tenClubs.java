@@ -12,6 +12,7 @@ public class tenClubs {
 		GolfClub nine = new GolfClub(110,10);
 		GolfClub ten = new GolfClub(50,10);
 		
+		int[] clubArray = {one,two,three,four,five,six,seven,eight,nine,ten};
 	}
 
 }

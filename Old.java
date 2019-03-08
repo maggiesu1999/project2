@@ -1,6 +1,6 @@
 public class Old{
-  protected int yards;
-  protected int par;
+  static int yards;
+  static int par;
   public Old(int yards, int par){
   this.yards = yards;
   this.par = par;

@@ -1,10 +1,9 @@
 import java.util.Random;
 public class GolfClub {
-       private String name;
        private int mean;
        private int sd; 
        Random randGen = new Random();
-       public GolfClub(String name, int mean, int sd){
+       public GolfClub(int mean, int sd){
               this.mean = mean;
               this.sd = sd;
        }

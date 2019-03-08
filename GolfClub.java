@@ -3,6 +3,7 @@ public class GolfClub {
        private String name;
        private int mean;
        private int sd; 
+       Random randGen = new Random();
        public GolfClub(String name, int mean, int sd){
               this.mean = mean;
               this.sd = sd;
@@ -24,6 +25,10 @@ public class GolfClub {
               return sd;
        }
        
+       public int nextDistance(int power){
+           double meanAdj = mean * power / 10.0;
+           double sdAdj = sd * power / 10.0;
+           int userDistance = (int)(Math.abs(randGen.nextGaussian() * sdAdj + meanAdj));
+           return userDistance;
+    }
 }
-
-

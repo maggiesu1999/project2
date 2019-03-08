@@ -1,6 +1,8 @@
+import java.util.Scanner;
+import java.util.Random;
 
 public class tenClubs {
-
+	
 	public static void main(String[] args) {
 		GolfClub one = new GolfClub(230,30);
 		GolfClub two = new GolfClub(215,20);

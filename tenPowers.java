@@ -11,6 +11,8 @@ public class tenPowers {
     Power pow3 = new Power(4,2);
     Power pow2 = new Power(2,1);
     Power pow1 = new Power(1,1);
+    
+    int[] powerArray = {pow1,pow2,pow3,pow4,pow5,pow6,pow7,pow8,pow9,pow10};
        
   }
 }
